@@ -27,7 +27,7 @@ main {
 section#login {
     position: absolute;
     background-color: white;
-    width: 250px;
+    width: 270px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
@@ -51,4 +51,14 @@ section#login div#imagem {
 section#login div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario p {
+    font-size: 0.8em;
+    margin-bottom: 20px;
 }
